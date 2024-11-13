@@ -1,6 +1,11 @@
 {
   "name": "svelte-headroom",
   "svelte": "src/index.svelte",
+  "exports": {
+    ".": {
+      "svelte": "./src/index.svelte"
+    }
+  },
   "module": "index.mjs",
   "main": "index.js",
   "scripts": {
